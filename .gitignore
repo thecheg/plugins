@@ -1,0 +1,8 @@
+/fonts
+/images
+*.zip
+*.pdf
+*.doc
+*.sublime-project
+*.sublime-workspace
+*.txt
