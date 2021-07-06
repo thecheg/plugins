@@ -1031,9 +1031,9 @@
 							});
 
 							// Закрытие попапа по нажатию на Esc
-							$(document).on('keypress',function(e) {
-								if (popupOpened) {
-									if (e.which == 27) {
+							$(document).keypress(function(e) {
+								if (e.which == 27) {
+									if (popupOpened) {
 										popupClose();
 									}
 								}
