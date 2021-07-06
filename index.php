@@ -1403,7 +1403,7 @@
 						<a href="#js-jquery">jQuery</a>
 					</h3>
 					<p>
-						<a href="https://jquery.com/download/" target="_blank">jQuery @last</a>
+						<a href="https://cdnjs.com/libraries/jquery" target="_blank">jQuery @last</a>
 					</p>
 					<h3 id="js-swiper">
 						<a href="#js-swiper">Swiper</a>
