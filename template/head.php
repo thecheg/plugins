@@ -37,6 +37,9 @@
 	<link rel="mask-icon" href="<?=$rootPath;?>images/favicon/safari-pinned-tab.svg" color="#ef7fad">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?=$rootPath;?>css/style.min.css?t=<?=time()?>" />
 	<link rel="stylesheet" href="<?=$rootPath;?>css/responsive.min.css?t=<?=time()?>" />
 	<!-- front-end by https://chegdev.ru -->
