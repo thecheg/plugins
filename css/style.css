@@ -215,7 +215,7 @@ svg {
 }
 
 .section {
-	padding:50px;
+	padding:10px 50px 20px;
 }
 
 .section-inner {
@@ -425,7 +425,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .1em;
+	padding: 5px 10px;
 	border-radius: .3em;
 	white-space: normal;
 }

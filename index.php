@@ -216,7 +216,7 @@
 						<a href="#css-reset">CSS Reset</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-css">
+						<pre class="line-numbers language-css">
 							<code class="language-css">
 								/* Eric Meyer's Reset CSS v2.0 */
 								html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0; padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;} article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;} body {line-height:1;} ol, ul {list-style:none;} blockquote, q {quotes:none;} blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;} table {border-collapse:collapse;border-spacing:0;} input,textarea {outline:none;width:100%;} input, optgroup, select, textarea, button {display:block;font-family:inherit;border-radius:0;border:none;-webkit-box-shadow:none;box-shadow:none;background:none;}
@@ -228,7 +228,7 @@
 						<a href="#css-placeholder">Placeholder</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-css">
+						<pre class="line-numbers language-css">
 							<code class="language-css">
 								input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 									opacity:1;
@@ -272,7 +272,7 @@
 						<a href="#css-borderbox">Border-box</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-css">
+						<pre class="line-numbers language-css">
 							<code class="language-css">
 								*,
 								*:before,
@@ -289,7 +289,7 @@
 						<a href="#css-userselecnone">User-select:none</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-css">
+						<pre class="line-numbers language-css">
 							<code class="language-css">
 								{
 									-webkit-touch-callout:none;
@@ -323,7 +323,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="cross1">
-									<pre class="language-scss">
+									<pre class="line-numbers language-scss">
 										<code class="language-scss">
 											.cross-btn {
 												position:relative;
@@ -361,7 +361,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="cross2">
-									<pre class="language-css">
+									<pre class="line-numbers language-css">
 										<code class="language-css">
 											.cross-btn {
 												position: relative;
@@ -422,7 +422,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="cover1">
-									<pre class="language-scss">
+									<pre class="line-numbers language-scss">
 										<code class="language-scss">
 											.container {
 												position:absolute;
@@ -447,7 +447,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="cover2">
-									<pre class="language-css">
+									<pre class="line-numbers language-css">
 										<code class="language-css">
 											.container {
 												position:absolute;
@@ -495,7 +495,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="pre1">
-									<pre class="language-scss">
+									<pre class="line-numbers language-scss">
 										<code class="language-scss">
 											/* Прелоадер */
 
@@ -549,7 +549,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="pre2">
-									<pre class="language-css">
+									<pre class="line-numbers language-css">
 										<code class="language-css">
 											/* Прелоадер */
 				
@@ -631,7 +631,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="che1">
-									<pre class="language-scss">
+									<pre class="line-numbers language-scss">
 										<code class="language-scss">
 											.ui-check {
 												position:relative;
@@ -710,7 +710,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="che2">
-									<pre class="language-css">
+									<pre class="line-numbers language-css">
 										<code class="language-css">
 											.ui-check {
 												position: relative;
@@ -788,7 +788,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="che3">
-									<pre class="language-html">
+									<pre class="line-numbers language-html">
 										<code class="language-html">
 											&lt;label class="ui-check">
 												&lt;input type="checkbox" />
@@ -810,7 +810,7 @@
 						<a href="#js-matches">jQuery .matches</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								if (window.matchMedia('(min-width:1251px)').matches) {}
 							</code>
@@ -820,7 +820,7 @@
 						<a href="#js-htmltouch">HTML touch/no-touch</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								if ('ontouchstart' in document.documentElement) {
 									$('html').addClass('touch');
@@ -834,7 +834,7 @@
 						<a href="#js-menu">Меню</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// МОБИЛЬНОЕ МЕНЮ
 								var menuOpened = false;
@@ -865,7 +865,7 @@
 						<a href="#js-menutoggle">menu-toggle</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Клик на бургер
 								$(document).on('click','.menu-toggle',function() {
@@ -882,7 +882,7 @@
 						<a href="#js-vhfix">vh fix</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// vh fix
 								function vhFix() {
@@ -900,7 +900,7 @@
 						<a href="#js-scrollto">scrollTo</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Прокрутка к элементу
 								$(document).on('click','.scrollTo',function(e) {
@@ -918,7 +918,7 @@
 						<a href="#js-imgopacity">IMG opacity</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! lazy-загрузка изображений */
 								function imgInit() {
@@ -937,7 +937,7 @@
 						<a href="#js-placeholder">Плавающий placeholder</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! "Плавающий" placeholder */
 								function inputInit(label) {
@@ -972,7 +972,7 @@
 						<a href="#js-tabs">Tabs</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Табы */
 								function tabsInit(tabs) {
@@ -1020,13 +1020,13 @@
 						<a href="#js-accordion">Accordion</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Аккордионы */
 								function accordionInit(acc) {
-									var items = acc.find('.ui-accordion-item'),
-										triggers = acc.find('.ui-accordion-trigger'),
-										panels = acc.find('.ui-accordion-panel'),
+									var items = acc.find('.ui-accordion__item'),
+										triggers = acc.find('.ui-accordion__trigger'),
+										panels = acc.find('.ui-accordion__panel'),
 										initialized = false,
 										collapsable = true,
 										connected = false,
@@ -1044,10 +1044,10 @@
 
 									// раскрываем изначальный активный пункт
 									if (!acc.hasClass('collapsed')) {
-										if (!acc.find('.ui-accordion-item.active').length || acc.find('.ui-accordion-item.active').length > 1) {
+										if (!acc.find('.ui-accordion__item.active').length || acc.find('.ui-accordion__item.active').length > 1) {
 											itemF = items.first();
 										} else {
-											itemF = acc.find('.ui-accordion-item.active');
+											itemF = acc.find('.ui-accordion__item.active');
 										}
 
 										itemAction(itemF, 'open');
@@ -1065,7 +1065,7 @@
 											if (initialized) {
 												panels.hide();
 												var itemPos = item.offset().top - scrollOffset - 30;
-												acc.find('.ui-accordion-item.active').find('.ui-accordion-panel').show();
+												acc.find('.ui-accordion__item.active').find('.ui-accordion__panel').show();
 												setTimeout(function() {
 													$('html, body').animate({scrollTop:itemPos},animDuration);
 												},30);
@@ -1076,7 +1076,7 @@
 												item.addClass('active');
 
 												panels.slideUp(slideSpeed);
-												item.find('.ui-accordion-panel').slideDown(slideSpeed);
+												item.find('.ui-accordion__panel').slideDown(slideSpeed);
 											},30);
 
 											if (connected) {
@@ -1100,7 +1100,7 @@
 
 									// при клике на триггер
 									triggers.on('click',function() {
-										var item = $(this).closest('.ui-accordion-item');
+										var item = $(this).closest('.ui-accordion__item');
 
 										if (!item.hasClass('active')) {
 											itemAction(item, 'open');
@@ -1120,7 +1120,7 @@
 						<a href="#js-sendform">Send form</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Отправка данных из формы */
 								function formInit(form) {
@@ -1181,7 +1181,7 @@
 						<a href="#js-sendform">Очистка формы</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Очистка формы */
 								function clearForm(form) {
@@ -1223,7 +1223,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="pp1">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											/*! Попапы */
 												/*! Открытие попапа */
@@ -1284,7 +1284,7 @@
 
 														$('.popup').removeClass('active');
 														var popup = $('.popup#'+id);
-														popup.find('.popup-video').html('&lt;iframe src="'+videoUrl+'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>');
+														popup.find('.popup__video').html('&lt;iframe src="'+videoUrl+'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>');
 														popup.scrollTop(0).addClass('active');
 														popupOpened = true;
 													}
@@ -1304,7 +1304,7 @@
 													if (device.ios()) {
 														$(window).scrollTop(popupOpenedPos);
 													}
-													$('.popup-video').html('');
+													$('.popup__video').html('');
 
 													$('.popup .send-form').each(function() {
 														clearForm($(this));
@@ -1324,13 +1324,12 @@
 													$('.popup .send-form').each(function() {
 														clearForm($(this));
 													});
-
 												}
 										</code>
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="pp2">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											/*! Попапы */
 											function popupsInit(popup) {
@@ -1343,7 +1342,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="pp3">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											// Открытие попапа
 											$(document).on('click','[data-popup-open]',function() {
@@ -1351,7 +1350,7 @@
 											});
 				
 											// Закрытие попапа при клике на крестик
-											$(document).on('click','.popup-close',function() {
+											$(document).on('click','.popup__close',function() {
 												popupClose();
 											});
 				
@@ -1375,7 +1374,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="pp4">
-									<pre class="language-html">
+									<pre class="line-numbers language-html">
 										<code class="language-html">
 											&lt;div class="popup popup--request" id="callback">
 												&lt;div class="popup__wrapper">
@@ -1424,14 +1423,14 @@
 						<a href="#js-swiper">Collapse</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Разворачивание блоков */
 								function collapseInit(coll) {
 									var collPrefix = 'ui-collapse',
-										hidd = coll.find('.'+collPrefix+'-hidden'),
-										trig = coll.find('.'+collPrefix+'-trigger'),
-										trigText = trig.find('.'+collPrefix+'-trigger-text'),
+										hidd = coll.find('.'+collPrefix+'__hidden'),
+										trig = coll.find('.'+collPrefix+'__trigger'),
+										trigText = trig.find('.'+collPrefix+'__trigger-text'),
 										closedText = trig.attr('data-closed-text'),
 										openedText = trig.attr('data-opened-text');
 
@@ -1458,7 +1457,7 @@
 						<a href="#js-init">INIT()</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								/*! Инициализация */
 								function init() {
@@ -1514,7 +1513,7 @@
 						<a href="#js-scrollbarwidth">scrollbarWidth</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Определенение ширины скроллбара браузера
 								var scrollBarWidth = 0;
@@ -1543,7 +1542,7 @@
 						<a href="#js-scrolllock">scrollLock</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Блокировка прокрутки
 								function scrollLock(el,type) {
@@ -1583,7 +1582,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="sw1">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											/*! jQuery Simple Waypoint 1.0.0 by github.com/thecheg/ */
 											(function($){
@@ -1631,7 +1630,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="sw2">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											$('body').simpleWaypoint({
 												position: 1,
@@ -1652,7 +1651,7 @@
 						<a href="#js-animate">Scroll Animate</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 							// Анимация при скролле
 							$('.scroll-animate').each(function () {
@@ -1681,12 +1680,12 @@
 						<a href="#js-swiper">YouTube video play</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Воспроизведение видео
-								$(document).on('click', '.video-play', function() {
+								$(document).on('click', '.video__play', function() {
 									var video = $(this).closest('.video'),
-										videoFr = video.find('.video-frame'),
+										videoFr = video.find('.video__frame'),
 										videoUrl = video.attr('data-video');
 
 									if (videoUrl && videoUrl !== '') {
@@ -1701,7 +1700,7 @@
 						<a href="#js-formvalidator">formValidator</a>
 					</h3>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Валидатор формы
 								function formValidator(form) {
@@ -1771,19 +1770,39 @@
 						<a href="#js-jquery">jQuery</a>
 					</h3>
 					<p>
-						<a href="https://cdnjs.com/libraries/jquery" target="_blank">jQuery @last</a>
+						Install
+					</p>
+					<p>
+						<code class="language-js">
+							npm install jquery --save-dev
+						</code>
+					</p>
+					<p>
+						<a href="https://cdnjs.com/libraries/jquery" target="_blank">jQuery @last (CDNJS.com)</a>
 					</p>
 					<h3 id="js-swiper">
 						<a href="#js-swiper">Swiper</a>
 					</h3>
 					<p>
-						links
+						<code class="language-js">
+							npm install swiper --save-dev
+						</code>
 					</p>
 					<p>
-						<a href="https://unpkg.com/swiper/" target="_blank">Swiper @last</a>
+						Docs
+					</p>
+					<p>
+						<a href="https://swiperjs.com/swiper-api" target="_blank">Swiper Docs</a>
+					</p>
+					<p>
+						CDN
+					</p>
+					<p>
+						<a href="https://unpkg.com/swiper/" target="_blank">Swiper @last (UNPKG.com)</a><br />
+						<a href="https://cdnjs.com/libraries/Swiper" target="_blank">Swiper @last (CDNJS.com)</a>
 					</p>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Слайдер
 								$('.projects-block').each(function() {
@@ -1832,6 +1851,12 @@
 					<h3 id="js-swiper-parallax">
 						<a href="#js-swiper-parallax">Swiper Parallax</a>
 					</h3>
+					<p>
+						Example
+					</p>
+					<p>
+						<a href="https://codepen.io/Cheg/pen/poRXPgr" target="_blank">Horizontal parallax sliding (Codepen.io)</a>
+					</p>
 					<div class="code-block">
 						<div class="code-head">
 							<ul class="tabs ui-tabs">
@@ -1850,7 +1875,7 @@
 						<div class="code-cont">
 							<div class="ui-tabs-contents">
 								<div class="ui-tabs-content" data-tab="sp1">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											// Настройки слайдеров
 											var interleaveOffset = 0.5,
@@ -1894,7 +1919,7 @@
 									</pre>
 								</div>
 								<div class="ui-tabs-content" data-tab="sp2">
-									<pre class="language-js">
+									<pre class="line-numbers language-js">
 										<code class="language-js">
 											$('.intro').each(function() {
 												var block = $(this),
@@ -1920,13 +1945,16 @@
 						<a href="#js-fancybox">Fancybox</a>
 					</h3>
 					<p>
-						links
-					</p>
-					<p>
 						<a href="https://cdnjs.com/libraries/fancybox" target="_blank">Fancybox @last</a>
 					</p>
+					<p>
+						Docs
+					</p>
+					<p>
+						<a href="https://web.archive.org/web/20210324234751/https://fancyapps.com/fancybox/3/" target="_blank">Fancybox 3 Docs</a>
+					</p>
 					<div class="code-block">
-						<pre class="language-js">
+						<pre class="line-numbers language-js">
 							<code class="language-js">
 								// Галереи
 								$('[data-fancybox]').fancybox({
@@ -1945,7 +1973,12 @@
 						<a href="#js-formstyler">Form styler</a>
 					</h3>
 					<p>
-						links
+						<code class="language-js">
+							npm install jquery-form-styler --save-dev
+						</code>
+					</p>
+					<p>
+						Docs
 					</p>
 					<p>
 						<a href="https://dimox.name/jquery-form-styler/" target="_blank">Form styler @last</a>
